@@ -33,9 +33,9 @@ public void initialize() {
         do {
            
             startPoint.initialize();
-            
+            System.out.println("Enter a: ");
             a = Utils.INPUT.nextDouble();
-          
+           System.out.println("Enter b: ");
             b = Utils.INPUT.nextDouble();
         } while (!isValid());
     }
