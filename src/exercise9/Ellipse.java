@@ -41,7 +41,7 @@ public void initialize() {
     }
 
     public double calculatePerimeter() {
-        return Math.PI * (3*(a+b) - Math.sqrt((3*a+b)*(b+3*a)));
+        return Math.PI *(3.0*(a+b) - Math.sqrt((3.0*a+b)*(a+3.0*b)));
     }
 
      public double calculateArea() {
