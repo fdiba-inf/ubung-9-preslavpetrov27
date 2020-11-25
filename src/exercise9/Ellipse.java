@@ -31,11 +31,11 @@ public boolean isValid() {
 
 public void initialize() {
         do {
-            System.out.println("Start point: ");
+           
             startPoint.initialize();
-            System.out.print("Enter a: ");
+            
             a = Utils.INPUT.nextDouble();
-            System.out.print("Enter b: ");
+          
             b = Utils.INPUT.nextDouble();
         } while (!isValid());
     }
